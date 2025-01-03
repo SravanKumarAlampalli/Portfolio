@@ -3,16 +3,170 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <img src="assets/images/C:\Users\srava\Downloads\WhatsApp Image 2024-12-14 at 10.43.14 PM.jpeg" alt="Profile Picture" class="profile-img">
-    <title>Sravan Kumar Portfolio</title>
+   <b> <title>Sravan Kumar Portfolio</title> </b>
     <link rel="stylesheet" href="style.css">
+    <style>
+        /* Reset Styles */
+        body, h1, h2, h3, p, ul, li, a {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f9f9f9;
+        }
+
+        header {
+            background: linear-gradient(to right, #4b79a1, #283e51);
+            color: #fff;
+            padding: 2rem 0;
+            text-align: center;
+        }
+
+        header .profile-img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            border: 5px solid #fff;
+            margin-bottom: 1rem;
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+        }
+
+        header p {
+            font-size: 1.2rem;
+        }
+
+        header .social-links a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 0.5rem;
+            font-size: 1.1rem;
+        }
+
+        nav {
+            background: #283e51;
+            padding: 0.5rem 0;
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+            list-style: none;
+        }
+
+        nav ul li {
+            margin: 0 1rem;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+
+        nav ul li a:hover {
+            color: #4b79a1;
+        }
+
+        main {
+            padding: 2rem;
+        }
+
+        section {
+            margin-bottom: 2rem;
+            background: #fff;
+            padding: 1.5rem;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        section h2 {
+            font-size: 1.8rem;
+            margin-bottom: 1rem;
+            color: #283e51;
+            border-bottom: 2px solid #4b79a1;
+            display: inline-block;
+            padding-bottom: 0.5rem;
+        }
+
+        section p {
+            margin-bottom: 1rem;
+            line-height: 1.8;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        ul li {
+            margin-bottom: 0.5rem;
+            display: flex;
+            align-items: center;
+        }
+
+        ul li:before {
+            content: '\2022';
+            color: #4b79a1;
+            font-weight: bold;
+            margin-right: 0.5rem;
+        }
+
+        .timeline {
+            border-left: 3px solid #4b79a1;
+            padding-left: 1.5rem;
+        }
+
+        .timeline-item {
+            margin-bottom: 1.5rem;
+            position: relative;
+        }
+
+        .timeline-item:before {
+            content: '';
+            position: absolute;
+            left: -10px;
+            top: 0;
+            width: 15px;
+            height: 15px;
+            background: #4b79a1;
+            border-radius: 50%;
+            border: 3px solid #fff;
+        }
+
+        footer {
+            text-align: center;
+            padding: 1rem;
+            background: #283e51;
+            color: #fff;
+            margin-top: 2rem;
+        }
+
+        footer p {
+            font-size: 0.9rem;
+        }
+    </style>
 </head>
 <body>
     <header>
         <div class="container">
-            <img src="assets/images/profile.jpg" alt="Profile Picture" class="profile-img">
+            <img src="assets/images/WhatsApp Image 2024-12-14 at 10.43.14 PM.jpeg" alt="Sravan Kumar" class="profile-img">
             <h1>Sravan Kumar Alampalli</h1>
-            <p>Java Full Stack Developer with 8 years of experience in crafting cutting-edge solutions for finance, healthcare, and e-commerce.</p>
+            <p>Java Full Stack Developer with 8 years of experience delivering enterprise-level solutions across finance, healthcare, and e-commerce domains.</p>
+            <div class="social-links">
+                <a href="#">LinkedIn</a> |
+                <a href="#">GitHub</a> |
+                <a href="#">Medium</a>
+            </div>
         </div>
     </header>
     <nav>
@@ -27,7 +181,18 @@
     <main>
         <section id="about">
             <h2>About Me</h2>
-            <p>I am a passionate developer with expertise in Java, Spring Boot, React.js, and Angular. My focus is on creating scalable and efficient software solutions for various industries, including finance, healthcare, and e-commerce.</p>
+            <p>I am a seasoned Java Full Stack Developer with 8 years of experience in designing, developing, and deploying enterprise-grade applications across finance, healthcare, and e-commerce industries. My professional journey has been defined by a strong passion for coding, innovative problem-solving, and a commitment to delivering scalable and efficient software solutions.</p>
+            <p>I excel in creating responsive and interactive user interfaces using React.js and Angular, ensuring a seamless user experience. My backend expertise includes building secure and robust RESTful APIs and microservices with Java, Spring Boot, and Hibernate, supported by scalable database management with PostgreSQL and MongoDB.</p>
+            <p>With a solid foundation in cloud computing platforms such as AWS and Azure, I have successfully implemented and managed cloud-based applications, ensuring high availability and disaster recovery. I also bring a deep understanding of CI/CD pipelines, leveraging tools like Jenkins and GitHub to automate deployments and enhance development workflows.</p>
+            <p>Throughout my career, I have consistently embraced Agile methodologies, contributing to collaborative team environments and iterative development processes to meet dynamic business needs. My ability to work on complex, cross-functional projects has enabled me to deliver impactful solutions that drive organizational success.</p>
+            <p>Some of my key accomplishments include:</p>
+            <ul>
+                <li>Developing "Opti Flow," a cutting-edge platform to optimize corporate operations and improve efficiency, utilizing React.js and Spring Boot.</li>
+                <li>Creating the "Smart Finance Dashboard" for City National Bank, providing actionable financial insights and enhancing customer engagement.</li>
+                <li>Architecting microservices for real-time digital banking solutions at American Momentum Bank, integrating Angular and Kafka for seamless data flow.</li>
+                <li>Delivering an advanced inventory and order management system, "Orderly," for Neiman Marcus, enabling real-time tracking and automation of supply chain processes.</li>
+            </ul>
+            <p>I am committed to continuous learning and staying updated with the latest technological trends. My current focus is on exploring advancements in cloud-native technologies and enhancing application scalability using Kubernetes and serverless architectures.</p>
         </section>
         <section id="experience">
             <h2>Experience</h2>
@@ -36,25 +201,54 @@
                     <h3>Java Full Stack Developer</h3>
                     <p><strong>Company:</strong> Aver Technologies, Woodbridge, VA</p>
                     <p><strong>Duration:</strong> June 2023 - Present</p>
-                    <p>Developed responsive user interfaces and scalable microservices for the Opti Flow platform, enhancing operational efficiency with real-time data processing and secure APIs.</p>
+                    <ul>
+                        <li>Developed Opti Flow, a platform optimizing corporate operations with real-time data integration.</li>
+                        <li>Built reusable UI components using React.js and Redux for consistent user experiences.</li>
+                        <li>Implemented secure microservices using Spring Boot and integrated Apache Kafka for event streaming.</li>
+                        <li>Ensured data integrity with PostgreSQL and MongoDB for structured and unstructured datasets.</li>
+                    </ul>
                 </div>
                 <div class="timeline-item">
                     <h3>Full Stack Web Developer</h3>
                     <p><strong>Company:</strong> City National Bank, Corsicana, TX</p>
                     <p><strong>Duration:</strong> July 2021 - May 2023</p>
-                    <p>Created the Smart Finance Dashboard, integrating secure APIs and providing customers with actionable financial insights.</p>
+                    <ul>
+                        <li>Designed Smart Finance Dashboard, offering real-time financial insights for customers.</li>
+                        <li>Implemented secure API integrations and advanced middleware using Spring Boot.</li>
+                        <li>Deployed scalable applications on AWS, ensuring disaster recovery and fault tolerance.</li>
+                    </ul>
                 </div>
-                <!-- Add other experiences here -->
+                <div class="timeline-item">
+                    <h3>Java Full Stack Developer</h3>
+                    <p><strong>Company:</strong> American Momentum Bank, College Station, TX</p>
+                    <p><strong>Duration:</strong> Dec 2019 - June 2021</p>
+                    <ul>
+                        <li>Developed real-time digital banking solutions enhancing operational efficiency.</li>
+                        <li>Designed secure payment methods and live transaction tracking using Angular and Spring Boot.</li>
+                        <li>Optimized database schemas and implemented caching for faster data retrieval.</li>
+                    </ul>
+                </div>
+                <div class="timeline-item">
+                    <h3>Full Stack Java Developer</h3>
+                    <p><strong>Company:</strong> Neiman Marcus, Irving, TX</p>
+                    <p><strong>Duration:</strong> Oct 2018 - Nov 2019</p>
+                    <ul>
+                        <li>Created Orderly, a real-time inventory and order management system.</li>
+                        <li>Developed RESTful APIs and implemented AWS Lambda for event-driven operations.</li>
+                        <li>Enhanced user experience with dynamic UI and real-time notifications.</li>
+                    </ul>
+                </div>
             </div>
         </section>
         <section id="skills">
             <h2>Skills</h2>
             <ul>
-                <li>Programming: Java, JavaScript, HTML5, CSS3</li>
-                <li>Frameworks: Spring Boot, Angular, React.js</li>
+                <li>Programming Languages: Java (8/11/17), JavaScript, HTML5, CSS3</li>
+                <li>Frameworks and Libraries: Spring Boot, React.js, Angular, Redux</li>
                 <li>Databases: PostgreSQL, MySQL, MongoDB</li>
-                <li>Cloud Platforms: AWS, Azure</li>
-                <li>CI/CD Tools: Jenkins, GitHub</li>
+                <li>Cloud Platforms: AWS (EC2, S3, RDS, Lambda), Azure</li>
+                <li>Tools: GitHub, Jenkins, Docker, Gradle</li>
+                <li>Architectures: Microservices, RESTful APIs</li>
             </ul>
         </section>
         <section id="education">
@@ -67,7 +261,7 @@
             <p>Email: sravankumar.alampalli111@gmail.com</p>
             <p>Phone: +1314-492-8197</p>
             <p>LinkedIn: <a href="#">LinkedIn Profile</a></p>
-            <p>GitHub: <a href="#">GitHub Portfolio</a></p>
+            
         </section>
     </main>
     <footer>
